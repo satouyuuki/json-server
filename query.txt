@@ -1,0 +1,15 @@
+一ページ２つまで、２ページ目
+?_page=2&_limit=2
+
+nameがAppleのもの
+&name=Apple
+
+nameがアルファベット順
+?_sort=name&_order=asc
+?_sort=name&_order=desc
+
+30以上40以下
+?age_gte=30&age_lte=40
+
+全件サーチ
+?q=john

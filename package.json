@@ -1,0 +1,13 @@
+{
+  "name": "json_server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "json:server": "json-server --watch db.json",
+    "json:server:remote": "json-server http://jsonplaceholder.typicode.com/db"
+  },
+  "dependencies": {
+    "json-server": "^0.16.3"
+  }
+}
